@@ -18,11 +18,21 @@
 			li {
 				list-style: none;
 			}
+
+			input {
+				display: inline-block;
+			}
 			
 		</style>
 	</head>
 
 	<body>
 		<h1> TINY APP </h1>
+
+		<form method = "POST" action = "/urls/login">
+			<input type = "text" name = "username" placehodler = "Username" />
+			<input type = "text" name = "password" placeholder = "Password" />
+			<input type = "submit" name = "access" placeholder = "Login" />
+		</form>
 	</body>
 </html>
